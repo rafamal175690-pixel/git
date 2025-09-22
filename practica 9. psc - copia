@@ -1,0 +1,34 @@
+	Algoritmo sin_titulo
+	//intrucciiones de entrada y salida
+	//Escribir y Leer 
+	//Uso de variables y el tipo
+	//define nombrevariable y el tipo
+	//operaciones aritmeticas
+	//+,-,*,/,mod
+	//condisiones
+	//si entonces y si entonces SiNo
+	//ciclos
+	//para Repetir Mientras 
+	//hacer un programa que muestre en pantalla un menu, con lasa siguientes 
+	//opciones: 1.-triangulo 2.-Cuadrado 3.-Rectangulo 4,-Circulo 5.-Salir
+	//a continuacion se pedira una opcion del menu. y de pendiendo de la Opcion 
+	//es la operacion que realizara, regresasndo al menu, donde solo el programa
+	//termina hasta que se elige la opcion 5.
+	Definir op Como Entero
+	Definir res Como Caracter
+	Repetir
+	  Escribir "1.-Trinagulo"
+	   Escribir "2.-Cuadrado" 
+	   Escribir "3.- REctangulo"
+	   Escribir "4.-Circulo"
+	   Escribir "5.- Salir"
+	   Escribir "elige una opción"
+	   leer op
+	   si op == 5 Entonces
+		Escribir "Fin del programa"
+		 res = "no"
+	   SiNo
+		 res = "si"
+	    FinSi
+    Hasta Que res =="no"
+FinAlgoritmo
